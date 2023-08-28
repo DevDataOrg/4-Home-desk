@@ -18,7 +18,6 @@ img {
 }
 
 body {
-  /* font-family: 'font', sans-serif; */
   font-family: Arial, Verdana, sans-serif;
 }
 
@@ -75,7 +74,22 @@ body {
 .paragraph-text {
   margin: 0;
   width: 872px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
 }
+
+.paragraph-text-blue {
+  border-radius: 20px;
+  padding: 50px 95px 50px 95px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  background-color: #3f2aff;
+}
+
 
 .paragraph-text:not(:last-child) {
   margin-bottom: 40px;
@@ -88,6 +102,10 @@ body {
 .head-h1 {
   margin: 0;
   margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
 }
 
 .title-article-grey-block {
@@ -108,14 +126,33 @@ body {
   margin-bottom: 10px;
 }
 
+.grey-block-image-first {
+  background-image: url("../img/decorate-1.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.grey-block-image-second {
+  background-image: url("../img/decorate-2.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
 .head-h2 {
   margin: 0;
   margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
 }
 
 .head-h3 {
   margin: 0;
   margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
 }
 
 .list-ul {
@@ -125,6 +162,16 @@ body {
 
 .list-li:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.list-li::marker {
+  color: #3f2aff;
+}
+
+.link-list {
+  border-bottom: 1px solid #3f2aff;
+  font-size: 20px;
+  color: #3f2aff;
 }
 
 .image {
@@ -141,8 +188,18 @@ body {
   margin: 0;
   display: inline-block;
   width: 872px;
+  font-size: 0;
 }
 
 .figure-img:not(:last-child) {
   margin-bottom: 40px;
+}
+
+.figcation-title {
+  border: 1px solid #b6b6b6;
+  border-top: none;
+  padding: 19px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
 }
