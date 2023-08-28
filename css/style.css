@@ -18,7 +18,8 @@ img {
 }
 
 body {
-  font-family: 'font', sans-serif;
+  /* font-family: 'font', sans-serif; */
+  font-family: Arial, Verdana, sans-serif;
 }
 
 .main-content {
@@ -38,11 +39,27 @@ body {
 
 .links-module {
   margin-bottom: 50px;
+  font-size: 0px;
 }
 
 .link {
   display: inline-block;
   padding: 24px 49px 24px 49px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
+}
+
+.link-download {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
+  color:  #3f2aff;
+  padding-left: 30px;
+  background-image: url("../img/download.png");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
 }
 
 .link:not(:last-child) {
